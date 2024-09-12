@@ -72,6 +72,12 @@ body {
   line-height: 150%;
   letter-spacing: 0px;
   margin-bottom: 12px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.article-title:hover {
+  color: #f4d04e;
 }
 
 .article-body {
