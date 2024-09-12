@@ -3,9 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="An insightful article on HTML & CSS fundamentals."
+    />
     <title>Blog preview card</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="//fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"
@@ -16,26 +21,26 @@
     <main class="component">
       <img
         src="images/illustration-article.svg"
-        alt="Illustration image. Colors mixed : yellow, black, white"
+        alt="Abstract illustration in yellow, black, and white"
         class="illustration"
       />
-      <div class="article">
+      <article class="article">
         <p class="article-topic">Learning</p>
         <p class="article-date">Published 21 Dec 2023</p>
-        <h1 class="article-title">HTML & CSS foundations</h1>
+        <h1 class="article-title"><a href="#">HTML & CSS foundations</a></h1>
         <p class="article-body">
           Those languages are the backbone of every website, defining structure,
           content and presentation.
         </p>
-      </div>
-      <div class="author">
+      </article>
+      <footer class="author">
         <img
           src="images/image-avatar.webp"
-          alt="Profile Picture of Greg Hooper"
+          alt="Greg Hooper's profile picture"
           class="author-avatar"
         />
         <span class="author-name">Greg Hooper</span>
-      </div>
+      </footer>
     </main>
   </body>
 </html>
